@@ -21,7 +21,7 @@
     #text()[#summary]
   ]
   
-  #set list(marker: [#image("marker.svg", width: 5pt, height: 5pt)], tight: false, spacing: 10pt)
+  #set list(marker: [#image("assets/icons/marker.svg", width: 5pt, height: 5pt)], tight: false, spacing: 10pt)
   #for work in works [
     - #work
   ]
@@ -39,7 +39,7 @@
     )
     #v(.64cm)
     #text(weight: "medium")[Core Technologies]
-    #list(marker: [#image("marker.svg", width: 5pt, height: 5pt)], tight: false, spacing: 9pt,
+    #list(marker: [#image("assets/icons/marker.svg", width: 5pt, height: 5pt)], tight: false, spacing: 9pt,
     [.NET Core],
     [ASP .NET],
     [EF Core],
@@ -50,7 +50,7 @@
   )
   #v(.6cm)
     #text(weight: "medium")[Specializations]
-    #list(marker: [#image("marker.svg", width: 5pt, height: 5pt)], tight: false, spacing: 9pt,
+    #list(marker: [#image("assets/icons/marker.svg", width: 5pt, height: 5pt)], tight: false, spacing: 9pt,
     [DevOps],
     [Perf. Optimization],
     [Microservices],
